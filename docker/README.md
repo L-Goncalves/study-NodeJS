@@ -11,3 +11,10 @@
 ``docker run <image> -p 3000:3000`` you're exposing 3000 port.
 <br/>
 ``docker run <image> -d`` hides the terminal
+<br/>
+``docker rmi <image>`` removes image
+<br/>
+``docker system prune`` Deletes images, networks and all stopped containers
+<br/>
+``docker top <container-name>`` You can check some information about the container
+
