@@ -1,7 +1,8 @@
 # Docker
-
+``docker build <directory>`` you can build an image
+<br/>
 ``-it`` you can run an image
-<br>
-``-p 3000:3000`` you're exposing 3000 port.
-<br>
-``-d``hides the terminal
+<br/>
+``docker run <image> -p 3000:3000`` you're exposing 3000 port.
+<br/>
+``docker run <image> -d`` hides the terminal
