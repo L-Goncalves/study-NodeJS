@@ -4,6 +4,7 @@
 
 ## Docker basic commands: 
 ``docker ps`` you can see all images
+<br/>
 ``docker build <directory>`` you can build an image
 <br/>
 ``-it`` you can run an image
@@ -17,4 +18,9 @@
 ``docker system prune`` Deletes images, networks and all stopped containers
 <br/>
 ``docker top <container-name>`` You can check some information about the container
+<br/>
+``docker push <image>`` You can push image into docker hub
+<br/>
+``docker pull <image>`` You can download an image
+
 
